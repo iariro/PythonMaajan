@@ -1,4 +1,4 @@
-from logictest.tenpai import TenpaiPatternTest, TenpaiData6
+from maajanlib.logictest.tenpai import TenpaiPatternTest, TenpaiData6
 
 class TenpaiPatternTest6(TenpaiPatternTest.TenpaiPatternTest):
 	def test601六面待ち九蓮宝燈暗刻除く(self):

@@ -1,7 +1,7 @@
 import random
 
-from logic.Pai import Pai
-from logic.PaiAndRandomValue import PaiAndRandomValue
+from .Pai import Pai
+from .PaiAndRandomValue import PaiAndRandomValue
 
 #/**
 # * 全牌のコレクション。

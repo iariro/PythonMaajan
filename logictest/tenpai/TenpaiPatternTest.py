@@ -1,10 +1,10 @@
 import datetime
 import unittest
-from logic.Pai import Pai
-from logic.PaiKind import PaiKind
-from logic.MachiPattern import MachiPattern
-from logic.ChiitoitsuCheck import ChiitoitsuCheck
-from logic.KokushimusouCheck  import KokushimusouCheck 
+from maajanlib.logic.Pai import Pai
+from maajanlib.logic.PaiKind import PaiKind
+from maajanlib.logic.MachiPattern import MachiPattern
+from maajanlib.logic.ChiitoitsuCheck import ChiitoitsuCheck
+from maajanlib.logic.KokushimusouCheck  import KokushimusouCheck 
 
 class TenpaiPatternTest(unittest.TestCase):
 	def executeTest(self, data, dump=True):

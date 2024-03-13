@@ -1,4 +1,4 @@
-from logictest.tenpai import TenpaiPatternTest, TenpaiData1
+from maajanlib.logictest.tenpai import TenpaiPatternTest, TenpaiData1
 
 class TenpaiPatternTest1(TenpaiPatternTest.TenpaiPatternTest):
 	def test101嵌張(self):

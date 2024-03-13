@@ -1,4 +1,4 @@
-from logictest.tenpai import TenpaiPatternTest, TenpaiData3
+from maajanlib.logictest.tenpai import TenpaiPatternTest, TenpaiData3
 
 class TenpaiPatternTest3(TenpaiPatternTest.TenpaiPatternTest):
 	def test301三面待ち狭義(self):

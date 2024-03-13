@@ -1,4 +1,4 @@
-from logictest.tenpai import TenpaiPatternTest, TenpaiDataKokushimusou
+from maajanlib.logictest.tenpai import TenpaiPatternTest, TenpaiDataKokushimusou
 
 class TenpaiPatternTestKokushimusou(TenpaiPatternTest.TenpaiPatternTest):
 	def test101(self):

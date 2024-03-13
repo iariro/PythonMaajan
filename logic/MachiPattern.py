@@ -1,8 +1,8 @@
-from logic.AllPai import AllPai
-from logic.MachiElement import MachiElement
-from logic.MachiElementCollection import MachiElementCollection
-from logic.MachiType import MachiType
-from logic.MentsuPattern import MentsuPattern
+from .AllPai import AllPai
+from .MachiElement import MachiElement
+from .MachiElementCollection import MachiElementCollection
+from .MachiType import MachiType
+from .MentsuPattern import MentsuPattern
 
 #/**
 # * 待ちパターン。

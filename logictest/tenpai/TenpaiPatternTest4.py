@@ -1,4 +1,4 @@
-from logictest.tenpai import TenpaiPatternTest, TenpaiData4
+from maajanlib.logictest.tenpai import TenpaiPatternTest, TenpaiData4
 
 class TenpaiPatternTest4(TenpaiPatternTest.TenpaiPatternTest):
 	def test401四面待ち三面張単騎複合(self):

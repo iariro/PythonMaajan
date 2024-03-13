@@ -1,4 +1,4 @@
-from logictest.tenpai import TenpaiPatternTest, TenpaiData5
+from maajanlib.logictest.tenpai import TenpaiPatternTest, TenpaiData5
 
 class TenpaiPatternTest5(TenpaiPatternTest.TenpaiPatternTest):
 	def test501五面待ち暗刻ノベタン(self):

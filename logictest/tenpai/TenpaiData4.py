@@ -1,4 +1,4 @@
-from logic.PaiKind import PaiKind
+from maajanlib.logic.PaiKind import PaiKind
 
 data401 = [
 		[

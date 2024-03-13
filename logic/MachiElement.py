@@ -1,4 +1,4 @@
-from logic.PaiKind import PaiKind
+from .PaiKind import PaiKind
 
 #/**
 # * 待ちの要素情報。
