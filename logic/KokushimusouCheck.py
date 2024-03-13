@@ -28,9 +28,10 @@ class KokushimusouCheck:
 		yaochuu2 = yaochuu1[:]
 
 		for i in range(0, len(tehai)):
-			if PaiKind(tehai[i].kind) in yaochuu1 and PaiKind(tehai[i].kind) in yaochuu2:
+			if tehai[i].kind in yaochuu1:
 				# 幺九牌である。
-				yaochuu2.remove(PaiKind(tehai[i].kind))
+				if tehai[i].kind in yaochuu2:
+					yaochuu2.remove(tehai[i].kind)
 			else:
 				# 幺九牌ではない。
 				return []
