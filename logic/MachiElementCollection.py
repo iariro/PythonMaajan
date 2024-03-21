@@ -15,6 +15,9 @@ class MachiElementCollection:
 	def size(self):
 		return len(self.machi_element_list)
 
+	def sort(self):
+		return sorted(self.machi_element_list, key=lambda machi: (machi.type, machi.pai_list[0]))
+
 	#/**
 	# * 待ち要素情報を追加。重複追加チェック付き。
 	# * @param machi 待ち要素情報

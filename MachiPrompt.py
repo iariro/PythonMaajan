@@ -12,5 +12,6 @@ machi = machiPattern.getMachi()
 
 if len(machi) > 0:
     print('loopCount={}'.format(machiPattern.loopCount))
-    print('{}待ち'.format(machiPattern.machiElementCollection.toString()))
+    for m in machiPattern.machiElementCollection.sort():
+        print(m.type)
     print(' '.join([PaiKind(m).name for m in machi]) + "待ち")

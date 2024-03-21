@@ -1,4 +1,5 @@
 from .PaiKind import PaiKind
+from .MachiType import MachiTypeJp
 
 #/**
 # * 待ちの要素情報。
@@ -23,6 +24,7 @@ class MachiElement:
 	def __init__(self, type, use, nokori, pai1=None, pai2=None, pai_count=None):
 		self.pai_list = []
 		self.type = type
+		self.type_jp = MachiTypeJp(int(type))
 		self.nokori = nokori
 
 		if pai1 is not None:
