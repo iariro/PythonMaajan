@@ -32,11 +32,13 @@ class MachiElement:
 		if pai2 is not None:
 			self.pai_list.append(pai2)
 
-		if pai1 and PaiKind(pai1) in pai_count:
+		self.over1 = False
+		if pai1 is not None and PaiKind(pai1) in pai_count:
 			# 含まれている。
 			self.over1 = pai_count[PaiKind(pai1)] >= 4
 
-		if pai2 and PaiKind(pai2) in pai_count:
+		self.over2 = False
+		if pai2 is not None and PaiKind(pai2) in pai_count:
 			# 含まれている。
 			self.over2 = pai_count[PaiKind(pai2)] >= 4
 
