@@ -3,12 +3,21 @@ from .PaiKind import PaiKind, PaiKindShort
 from .MachiPattern import MachiPattern
 import random
 
+def random_num():
+    conv = []
+    for i in range(4):
+        for j in range(4-i):
+            conv.append(i+1)
+
+    r = random.randint(0,9)
+    return conv[r]
+
 def generate_chiniso_tenpai():
     while True:
         tehai = []
         p = random.randint(1, 4)
         while len(tehai) < 13:
-            for i in range(0, random.randint(0, 4)):
+            for i in range(0, random_num()):
                 tehai.append(p)
             p += 1
             if p > 9:
