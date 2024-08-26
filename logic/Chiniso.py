@@ -4,16 +4,13 @@ from .MachiPattern import MachiPattern
 import random
 
 def generate_chiniso_tenpai():
-    num_conv = []
-    for i in range(4):
-        for j in range(4-i):
-            num_conv.append(i+1)
+    num_conv = [1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,3,3,4]
 
     while True:
         tehai = []
         p = random.randint(1, 4)
         while len(tehai) < 13:
-            r = random.randint(0, 9)
+            r = random.randint(0, len(num_conv)-1)
             for i in range(0, num_conv[r]):
                 tehai.append(p)
             p += 1
